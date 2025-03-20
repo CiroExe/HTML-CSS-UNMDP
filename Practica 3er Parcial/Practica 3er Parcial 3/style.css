@@ -1,0 +1,134 @@
+body {
+    margin:0;
+    font-family: sans-serif;
+    background-color: lightblue;
+}
+
+main {
+    padding: 15px;
+}
+
+header {
+    background-color: blue;
+    padding: 10px;
+    
+}
+
+.titulo-secundario {
+    text-align: center;
+    color: darkblue;
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+header .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+}
+
+
+.section-container {
+    padding: 15px;
+}
+
+.section-title {
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+section:not(:last-child) {
+    border-bottom: 2px solid grey ;
+}
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.form-item {
+    margin-bottom: 15px;
+}
+
+
+
+
+.boton-enviar{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    font-weight: 750;
+
+}
+
+table {
+    margin:0 auto;
+    border: 2px solid green;
+}
+
+table a {
+    color: darkred;
+    font-weight: bold;
+}
+
+.principito-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.principito-container > img {
+    width: 15%;
+}
+
+.sinopsis {
+    padding: 15px;
+}
+
+.sinopsis a {
+    text-decoration: none;
+    color: black;
+}
+
+.sinopsis .principito-buttom{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size:xx-large;
+    background-color: yellow;
+    padding: 10px;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    font-weight: bolder;
+    
+    
+}
+
+footer {
+    border-top: 2px solid red;
+    color: red;
+    padding: 15px;
+    position:relative;
+    bottom: 0;
+    width: 98vw;
+}
+
+
+

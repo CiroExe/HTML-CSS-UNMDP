@@ -1,0 +1,33 @@
+body{
+    background-color: red;
+}
+
+#btn1 {
+    color: aqua;
+}
+
+#btn2 {
+    color: aqua;
+}
+
+.primertitulo {
+    color: darkblue;
+}
+.segundo,
+.tercera,
+.cuarta,
+.quinta{
+    background-color:lightgoldenrodyellow;
+}
+
+.hobbies {
+    text-align: center;
+    font-size: 60px;
+
+}
+
+.Plantel {
+    position: absolute;
+    height: 20%;
+    left: 15%;
+}

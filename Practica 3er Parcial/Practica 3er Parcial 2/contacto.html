@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo-principal">Museo de Arte Moderno</h1>
+    </header>
+
+    <main>
+
+        <div class="nav-container">
+            <a href="index.html" class="nav-item">Inicio</a>
+            <a href="galeria.html" class="nav-item">Galería</a>
+            <a href="contacto.html" class="nav-item">Contacto</a>
+        </div>
+
+        <form action="/enviar" method="post" class="form-container">
+            <h2>Contacto</h2>
+
+            <div class="form-item">
+                <label for="nameId">Nombre</label>
+                <input type="text" id="nameId" name="Nombre">
+            </div>
+            <div class="form-item">
+                <label for="emailId">E-Mail</label>
+                <input type="email" id="emailId" name="Email">
+            </div>
+            <div class="form-item">
+                <label for="msjId">Mensaje</label>
+                <textarea name="mensaje" id="msjId" rows="2" cols="15"></textarea>
+            </div>
+            <div class="button">
+                <input type="submit" value="Enviar">
+            </div>
+
+        </form>
+
+       
+    </main>
+
+    <footer>© 2024 Museo de Arte Moderno</footer>
+    
+</body>
+</html>

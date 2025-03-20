@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div>
+        <h2>Ejercicio 1</h2>
+        <form action="https://formtester.goodbytes.be/post.php" method="post">
+
+            <label for="input-nom">Nombre de usuario</label>
+            <input type="text" name="nombre" id="input-nom" placeholder="Ciro Ganduglia" required>
+    
+            <br>
+    
+            <label for="input-contra">Contraseña</label>
+            <input type="password" name="contrasenia" id="input-contra" required>
+    
+            <br>
+            <br>
+    
+            <input type="submit" value="Enviar Formulario">
+    
+            <br><br><br><br>
+            <hr>
+    
+    
+    
+        </form>
+    </div>
+
+    <div>
+        <h2>Ejercicio 2</h2>
+        <form action="https://formtester.goodbytes.be/post.php" method="post">
+
+            <label for="input-nom2">Nombre</label>
+            <input type="text" name="nombre2" id="input-nom2" placeholder="Ciro" required>
+
+            <br><br>
+
+            <label for="input-ap">Apellido</label>
+            <input type="text" name="apellido" id="input-ap" placeholder="Ganduglia" required>
+
+            <br><br>
+
+            <label for="input-cuil">CUIL</label>
+            <input type="number" name="CUIL" id="input-cuil" placeholder="27-28033514-8" required>
+
+            <br><br>
+
+            <label for="input-url">Perfil profesional</label>
+            <input type="url" name="perfil" id="input-url" required>
+
+            <br><br>
+
+            <input type="submit" value="Enviar postulación">
+
+            <br><br><br>
+            <hr>
+
+        </form>
+    </div>
+
+    <div>
+        <h2>Ejercicio 3
+        </h2>
+        <form action="https://formtester.goodbytes.be/post.php" method="post">
+
+            <label for="input-nom3">Nombre y Apellido</label>
+            <input type="text" name="Nom&Ap" id="input-nom3" placeholder="Ciro Ganduglia" required>
+
+            <br><br>
+
+            <label for="input-email">Email</label>
+            <input type="email" id="input-email" name="Email"required>
+
+            <br><br>
+
+            <label for="input-tel">Teléfono</label>
+            <input type="tel" id="input-tel" name="telefono" required>
+
+            <br><br>
+
+            <label for="texto">Mensaje adicional</label>
+            <br>
+            <textarea name="texto-form" id="texto" cols="50" rows="15" placeholder="Escriba aquí.." default></textarea>
+
+            <br><br>
+            <input type="submit" value="Enviar informe">
+
+            <br><br><br>
+            <hr>
+
+
+
+
+
+        </form>
+
+    </div>
+
+    <div>
+        <h2>Ejercicio 4</h2>
+        <form action="https://formtester.goodbytes.be/post.php" method="post">
+
+            <label for="input-fec">Fecha de acta</label>
+            <input type="date" name="fecha" id="input-fec">
+
+            <br><br>
+
+            <label for="input-selec">Asignatura</label>
+            <select name="asignaturas" id="input-selec">
+                <option value="Programacion A">Programacion A</option>
+                <option value="Tecnologias Informaticas A">Tecnologias Informaticas A</option>
+                <option value="Estadistica Basica">Estadistica Basica</option>
+            </select>
+
+            <br><br>
+
+            <input type="submit">
+
+
+
+
+        </form>
+    </div>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+:root{
+    background-color:navajowhite;
+}
+
+.titulo-principal {
+    text-align: center;
+    color:darkred;
+    text-decoration: double underline darkmagenta;
+}
+
+.expo-list {
+    color: green;
+}
+
+.nav-container {
+    background-color: orange;
+    padding: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    border: 5px solid white;
+    box-shadow: 5px black;
+}
+
+/* Estilos para los enlaces de navegación */
+.nav-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px dashed white;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+/* Estilo para el último elemento sin margen inferior */
+.nav-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Cambio de color en hover */
+.nav-item:hover {
+    background-color: #ffd966;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-container {
+    background-color: darkred;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 350px;
+}
+
+.form-container > h2 {
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+
+label {
+    color: white;
+    justify-content: left;
+}
+
+input[type="text"], input[type="email"], textarea {
+            flex-basis: 65%;
+            padding: 5px;
+            border-radius: 5px;
+            border: 2px solid black;
+            margin-bottom: 10px;
+        }
+
+.form-item{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.button {
+    display: flex;
+    justify-content: end;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+
+}
+
+
+.login-title {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+
+#submitId {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    justify-content: end;
+}
+
+
+main  .sections {
+    padding: 10px;
+
+}
+
+
+footer {
+    position:absolute;
+    bottom: 0;
+    align-items: end;
+    padding: 20px;  
+    right: 0;
+    border-top: 2px solid grey;
+}

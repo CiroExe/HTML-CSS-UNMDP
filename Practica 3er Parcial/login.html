@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asociate a la Biblioteca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="titulo-principal">Biblioteca de la UNMDP</h1>
+        <nav>
+           <a href="informacion.html">Información sobre la Biblioteca</a>
+           <a href="login.html">Asociate a la Biblioteca</a>
+           <a href="catalogo.html">Catalogo de Libros</a>
+           
+        </nav>
+    </header>
+
+
+
+    <main>
+
+        <h2 class="titulo-secundario">Asociate a la Biblioteca</h2>
+        <div class="contenedor-form">
+            <form action="" method="post">
+                <label for="apellido" class="box-name">Apellido</label>
+                <input type="text" placeholder="Apellido" id="apellido">
+    
+                <br><br>
+    
+                <label for="nombre" class="box-name">Nombre</label>
+                <input type="text" placeholder="Nombre" id="nombre">
+    
+                <br><br>
+    
+                <label for="date" class="box-name">Fecha de Nacimiento</label>
+                <input type="date" id="date">
+    
+                <br><br>
+            
+                <div class="checkbox">
+                    <h3>Intereses:</h3>
+                    <input type="checkbox" id="acad">
+                    <label for="acad">Académicos</label>
+                    <input type="checkbox"  id="nov">
+                    <label for="nov">Novela</label>
+                    <input type="checkbox" name="autoayuda" id="autoayuda">
+                    <label for="autoayuda">Autoayuda</label>
+                    <input type="checkbox" name="historia" id="historia">
+                    <label for="historia">Historia</label>
+                </div>
+    
+                <br><br>
+    
+                <input type="submit" value="Asociarse" class="boton">
+    
+            </form>
+        </div>
+
+    </main>
+
+    <footer>Universidad Nacional de Mar del Plata 2024</footer>
+    
+</body>
+</html>

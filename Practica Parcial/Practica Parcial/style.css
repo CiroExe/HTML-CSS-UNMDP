@@ -1,0 +1,58 @@
+img {
+    border: 2px dashed green;
+}
+
+a {
+    color: darkred;
+    background-color: pink;
+    border-radius: 10px;
+    font: justify;
+    column-gap: 10px 0;
+    row-gap: 0 20px;
+
+}
+h1{
+    color: darkblue;
+    font-style: italic;
+}
+
+.intro {
+    font-weight: bold;
+    color: gray;
+    font-style: normal;
+    font-display: justify;
+}
+
+.nav {
+    text-align: center;
+}
+
+
+h2
+ {
+  
+color: blueviolet;
+font-weight: normal;
+
+text-align: center;
+background-color: lightblue;
+
+background-color
+: lightblue;
+ }
+
+ .logo{
+    width: 400px;
+    height: 200px;
+ }
+
+ .programa {
+    font-style: italic;
+    color: orange;
+    text-decoration: underline;
+ }
+
+ body {
+    background-color: lightyellow;
+ }
+

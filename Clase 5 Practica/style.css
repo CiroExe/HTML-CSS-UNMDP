@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(244, 233, 242);
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    background-color: blueviolet;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    width: 99%;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h2 {
+    margin:10px 10px;
+    color:white;
+}
+
+.logo img {
+    height: 50px;
+    border-radius: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+    border-right: 2px solid white;
+}
+
+.nav-link:last-child{
+    border-right: 0;
+}
+
+.nav-link:hover {
+    color: white;
+    font-size:large;
+}
+
+.nav-link:active {
+    color: black;
+}
+
+main {
+    margin:25px;
+    padding:10px;
+    background-color: aliceblue;
+    display:inline-block;
+    width:60%;
+    height:50%;
+    box-shadow: 5px 5px 5px;
+    border-radius: 5px;
+}
+
+aside {
+    display: inline-block;
+    background-color: whitesmoke;
+    text-align: center;
+    height: 50%;
+    width: 30%;
+    margin: 10px;
+    border-radius: 2px solid black;
+}
+
+main > h1 {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.contenedor {
+    margin: 30px;
+    box-shadow: 2px 2px 2px  ;
+}
+
+.titulo {
+    text-decoration: underline;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+li {
+    margin: 10px;
+}
+
+p{
+    margin:10px
+}
+
+footer {
+    background-color: pink;
+    justify-content:center;
+}
+
+.anuncios {
+    margin-bottom: 10px;
+}
+
+.imagen-estatica {
+    position: fixed;
+    bottom: 0;
+    right: 5px;
+}
+
+.imagen-estatica > img {
+    width: 10vh;
+    height: 10vh;
+}
