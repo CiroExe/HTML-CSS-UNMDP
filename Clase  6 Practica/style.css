@@ -1,0 +1,47 @@
+:root{
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+header {
+    background-color: white;
+    border-bottom: 4px solid grey;
+    position: sticky;
+}
+.nav
+-link {
+    text-decoration: none;
+}
+
+header > h2 {
+    text-align: center;
+}
+
+nav > ol  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#resumen > p {
+    width: 50% ;
+}
+
+#datos-personales  {
+    display: flex;
+    justify-content: space-between;
+}
+#datos-personales > img {
+    width: 10vw;
+    height: 12vw;
+    border-radius: 35%;
+    border: 5px solid gray;
+
+}
+
+.wpp-logo{
+    position: fixed;
+    right: 20;
+    bottom: 0;
+}

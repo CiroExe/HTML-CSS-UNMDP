@@ -1,0 +1,106 @@
+body{
+    margin:0;
+    background-color: lightpink;
+}
+
+header .cabecera {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    color: red;
+    font-style: italic;
+}
+
+
+
+.cabecera  img {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+header .nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: darkred;
+    padding: 10px;
+
+
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+
+input[type="search"]{
+    padding: 10px;
+    border-radius:5px 0 0 5px ;
+    outline: none;
+    margin-top: 15px;
+    display: inline;
+}
+
+input[type="submit"]{
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+    border-radius: 0 5px 5px 0;
+    padding: 10px;
+}
+
+.productos {
+    margin-left: 100px;
+}
+
+
+
+.product-block{
+    background-color: white;
+    text-align: center;
+    width: 20vw; 
+    height: 35vh;
+    border-radius: 10px;
+    border: 2px solid grey;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.product-title {
+    color: darkred;
+    text-decoration: underline;
+}
+
+.product-block > img {
+    width: 120px;
+    height: 125px;
+    padding: 10px;
+}
+
+.precio {
+    font-style: italic;
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    justify-content: end;
+    border-top: 2px solid grey;
+    color: grey;
+    padding: 15px;
+
+}
